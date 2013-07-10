@@ -10,6 +10,27 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+        
+        <!--meta facebook-->
+        <meta property="fb:app_id" content="178779322280867"/>
+        <meta property="og:url" content="http://fb.bowl.cl/fbprub/"/>
+        <meta property="og:title" content="TITULO PROYECTO"/>
+        <meta property="og:description" content="DESCRIPCION APP FACEBOOK"/>
+        <meta property="og:site_name" content="PROYECTO"/>
+        <meta property="og:type" content="video">
+        
+        <!--meta property="og:video" content="http://garethhooper.s3.amazonaws.com/garethhooper_com/embed/player.swf?config=http://garethhooper.s3.amazonaws.com/garethhooper_com/embed/flvplayer_facebook_embed_video_config.xml&file=http://garethhooper.s3.amazonaws.com/garethhooper_com/articles/social_media/integration/the_avengers_trailer.mp4" />
+        
+        <meta property="og:video:secure_url" content="https://garethhooper.s3.amazonaws.com/garethhooper_com/embed/player.swf?config=http://garethhooper.s3.amazonaws.com/garethhooper_com/embed/flvplayer_facebook_embed_video_config.xml&file=http://garethhooper.s3.amazonaws.com/garethhooper_com/articles/social_media/integration/the_avengers_trailer.mp4" /-->
+        
+        <meta property="og:video:height" content="300" />
+        <meta property="og:video:width" content="250" />
+        <meta property="og:video:type" content="application/x-shockwave-flash" />
+        
+        <meta property="og:video" content="http://fb.bowl.cl/fbprub/300x250.swf" />
+        <meta property="og:video:secure_url" content="https://fb.bowl.cl/fbprub/300x250.swf" />
+        
+        <meta property="og:image" content="http://garethhooper.com/images/stories/articles/social_media/integration/facebook_how_to_embed_your_own_videos.jpg"/>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
@@ -35,6 +56,7 @@
         <!--
         .mejs-overlay{
         background: url(img/<?php echo $selectedBg; ?>) no-repeat;
+        background-size: cover;
         }
         -->
         </style>
@@ -87,14 +109,14 @@
 
                 <section class="row-fluid">
 
-                    <div class="span12 cont-over text-center">
+                    <!--div class="span12 cont-over text-center">
                         
                         <h2>Bienvenidos a</h2>
                         <h1>agrosuper foods</h1>
                         
                         <p>Un mundo de sabores para nutrirte con los mejores momentos.</p>
 
-                    </div>
+                    </div-->
 
                     <video id="youtube1" class="hidden-phone" width="100%" height="100%">
                         

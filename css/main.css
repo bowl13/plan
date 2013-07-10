@@ -3,6 +3,34 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+html, body{
+	height: 100%;
+}
+#wrap{
+	min-height:100%;
+	height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+#push, .footer-fix{
+	height: 30px;
+}
+.footer-fix{
+	position: fixed;
+	margin-top: -150px;
+	height:150px;
+	clear:both;
+  	padding-top:20px;
+  	background-color: #f90;
+}
+@media (max-width: 767px) {
+    .footer-fix {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 .container-fluid{
 	padding:0 !important;
 }
@@ -11,7 +39,7 @@ body{
 	height:74px;
 	text-transform: uppercase;
 	color: #3598dc;
-	position: relative;
+	position: fixed;
 	z-index: 999999;
 }
 .head_cont nav{
@@ -24,10 +52,14 @@ body{
 .head_cont nav a:hover{
 	background-color: #f37531 !important;
 	color: #fff;
+	border: 0 !important;
+	border-radius:0 !important;
 }
 .head_cont nav a:focus{
 	background-color: #f37531 !important;
 	color: #fff;
+	border: 0 !important;
+	border-radius:0 !important;
 }
 .head_cont nav ul{
 	padding-top: 20px;
@@ -43,6 +75,7 @@ body{
 section{
 	height:auto;
 	display: block;
+	margin-top:-30px;
 }
 section .cont-over{
 	position: relative;
