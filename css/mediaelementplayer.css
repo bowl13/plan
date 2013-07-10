@@ -84,12 +84,13 @@
 
 .mejs-overlay-button {
 	position: absolute;
-	top: 50%;
-	left: 50%;
 	width: 100px;
 	height: 100px;
-	margin: -50px 0 0 -50px;
-	background: url(bigplay.svg) no-repeat;
+	left:0;
+	right: 0;
+	margin: 26% auto 0 !important;
+	background-color: #f90;
+	z-index: 999999;
 }
 
 .no-svg .mejs-overlay-button { 
@@ -145,6 +146,7 @@
 	background: linear-gradient(rgba(50,50,50,0.7), rgba(0,0,0,0.7)); 	
 	height: 30px;
 	width: 100%;
+	display: none !important;
 }
 .mejs-container .mejs-controls  div {
 	list-style-type: none;

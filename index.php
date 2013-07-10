@@ -23,7 +23,21 @@
         <link rel="stylesheet" href="css/mediaelementplayer.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
+        <?php
+          $bg = array('bg_01.jpg', 'bg_02.jpg', 'bg_03.jpg' ); // array of filenames
 
+          $i = rand(0, count($bg)-1); // generate random number size of the array
+          $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+        ?>
+
+        <style type="text/css">
+        <!--
+        .mejs-overlay{
+        background: url(img/<?php echo $selectedBg; ?>) no-repeat;
+        }
+        -->
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -92,7 +106,7 @@
 
                 </section>
 
-                <section class="row-fluid">
+                <section class="row-fluid cont_slide">
                     
                     <div id="myCarousel" class="carousel slide">
                       <!-- Carousel items -->
@@ -100,7 +114,7 @@
 
                         <div class="active item">
                             
-                            <div style="position:absolute;left:0;right:0;margin:20% auto;background-color:#f90;width:20%;height:30%;">holi</div>
+                            <p>somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
@@ -120,13 +134,13 @@
 
                         <div class="item">
                             
-                            <div style="position:absolute;left:0;right:0;margin:20% auto;background-color:#f90;width:20%;height:30%;">holi</div>
+                            <p>somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                            <source src="img/parr.mp4" type="video/mp4">
-                            <source src="img/parr.webm" type="video/webm">
-                            <source src="img/parr.ogv" type="video/ogg">
+                            <source src="img/pai.mp4" type="video/mp4">
+                            <source src="img/pai.webm" type="video/webm">
+                            <source src="img/pai.ogv" type="video/ogg">
 
                             </video>
 
@@ -139,7 +153,7 @@
                         </div>
                         <div class="item">
                             
-                            <div style="position:absolute;left:0;right:0;margin:20% auto;background-color:#f90;width:20%;height:30%;">holi</div>
+                            <p>somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
@@ -160,8 +174,8 @@
                       </div>
 
                        <!-- Carousel nav -->
-                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
 
                     </div>
 
@@ -195,6 +209,7 @@
         <script src="js/main.js"></script>
         <script src="js/vendor/jquery.keyboardScroll.js"></script>
         <script src="http://www.mediaelementjs.com/js/mejs-2.12.0/mediaelement-and-player.js"></script>
+
 
 		<!--google analytics-->
 
