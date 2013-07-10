@@ -18,10 +18,14 @@ html, body{
 .footer-fix{
 	position: fixed;
 	margin-top: -150px;
-	height:150px;
+	height:40px;
 	clear:both;
-  	padding-top:20px;
-  	background-color: #f90;
+  	/*padding-top:20px;*/
+  	width: 100%;
+  	bottom: 0;
+  	color:#fff;
+  	font-size: 11px;
+  	text-transform: uppercase;
 }
 @media (max-width: 767px) {
     .footer-fix {
@@ -43,7 +47,7 @@ html, body{
 	z-index: 999999;
 }
 .head_cont nav{
-	width: 497px;
+	width: 510px;
 	margin: 0 auto;
 }
 .head_cont nav a{
@@ -96,6 +100,9 @@ section .cont-over p{
 	font-size: 24px;
 	width:528px;
 	margin: 0 auto;
+}
+section .carousel{
+	margin-bottom:0 !important;
 }
 section.cont_slide .carousel-control{
 	width:33px;

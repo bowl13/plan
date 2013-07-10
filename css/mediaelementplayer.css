@@ -85,11 +85,13 @@
 .mejs-overlay-button {
 	position: absolute;
 	width: 10%;
-	height: 15%;
+	height: 20%;
 	left:0;
 	right: 0;
 	margin: 22% auto 0 !important;
-	background-color: #f90;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../img/play.png');
 }
 
 .no-svg .mejs-overlay-button { 

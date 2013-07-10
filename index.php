@@ -66,6 +66,15 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
         <div id="wrap">
 
             <div class="container-fluid">
@@ -205,7 +214,7 @@
 
             </div> <!-- /container -->
 
-            <div id="push"></div>
+            <!--div id="push"></div-->
 
         </div>
 
@@ -215,9 +224,22 @@
             
             <div class="row-fluid">
                 
-                <div class="like_fb"></div>
+                <div class="like_fb pull-left" style="margin-left:10px;">
+                                        
+                    <div class="fb-like" data-href="http://www.bowl.cl" data-send="false" data-width="450" data-show-faces="false"></div>
 
-                <div class="nav_key"></div>
+                </div>
+
+                <div class="nav_key pull-right" style="margin-right:10px;">
+                    
+                    <p id="txt_key" class="pull-left" style="display:none;">navega con tu teclado</p>
+
+                    <div id="key" class="pull-left" style="margin-left:10px;cursor:pointer;">
+                        
+                        <img src="img/icon_nav_key.png" alt="">
+
+                    </div>
+                </div>
 
             </div>
                 

@@ -20,5 +20,11 @@ $(document).ready(function() {
 	$('#youtube1').mediaelementplayer({
 		features: false
 	});
+
+	$('#key').mouseover(function(){
+		$('#txt_key').fadeIn();
+	}).mouseleave(function(){
+		$('#txt_key').fadeOut();
+	});
 	
 });
