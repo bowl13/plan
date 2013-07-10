@@ -58,7 +58,10 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-size: contain ;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
 	background-position: 50% 50% ;
 	background-repeat: no-repeat ;
 }
@@ -89,18 +92,23 @@
 	left:0;
 	right: 0;
 	margin: 22% auto 0 !important;
-	background-position: center;
 	background-repeat: no-repeat;
+	background-position: top center;
 	background-image: url('../img/play.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
 }
 
 .no-svg .mejs-overlay-button { 
 	background-image: url(bigplay.png);
 }
 
-.mejs-overlay:hover .mejs-overlay-button {
+/*.mejs-overlay:hover .mejs-overlay-button {
 	background-position: 0 -100px ;
-}
+}*/
 
 .mejs-overlay-loading {
 	position: absolute;
