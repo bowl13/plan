@@ -1,22 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext);
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+	padding:0 !important;
+}
+.head_cont{
+	background-color: #fff;
+	height:74px;
+	text-transform: uppercase;
+	color: #3598dc;
+	position: relative;
+	z-index: 999999;
+}
+.head_cont nav{
+	width: 497px;
+	margin: 0 auto;
+}
+.head_cont nav a{
+	color: #3598dc;
+}
+.head_cont nav a:hover{
+	background-color: #f37531 !important;
+	color: #fff;
+}
+.head_cont nav a:focus{
+	background-color: #f37531 !important;
+	color: #fff;
+}
+.head_cont nav ul{
+	padding-top: 20px;
+}
+.head_cont .tools{
+	padding-top: 30px;
+	margin-right: 10px;
+}
+.head_cont .logo{
+	margin: 10px 5px;
+	position: absolute;
+}
+section{
+	height:auto;
+	display: block;
+}
+section .cont-over{
+	position: relative;
+	z-index: 999999;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 19%;
+}
+section .cont-over h2{
+	font-weight: 300;
+	font-size: 38px;
+}
+section .cont-over h1{
+	font-size: 58px;
+	margin-bottom: 180px;
+}
+section .cont-over p{
+	font-size: 24px;
+	width:528px;
+	margin: 0 auto;
+}
+section .view-cinema{
+	width:100%;
+	height:auto;
+	max-width: 640px;
+}
