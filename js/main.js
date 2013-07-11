@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-	//arrow key nav
+//ARROW KEY NAV
 	$(".container-fluid").keyboardScroll({
 		scrollSpeed:1500
 	});
 
-	//carousel arrow nav
+//CAROUSEL ARROW NAV
 	$(document).bind('keyup', function(e) {
 
 	  if(e.keyCode==39){
@@ -17,14 +17,20 @@ $(document).ready(function() {
 
 	});
 
+//YOUTUBE VIDEO
 	$('#youtube1').mediaelementplayer({
 		features: false
 	});
 
+//MOUSEOVER
 	$('#key').mouseover(function(){
 		$('#txt_key').fadeIn();
 	}).mouseleave(function(){
 		$('#txt_key').fadeOut();
 	});
-	
+
+//RESPONSIVE MENU
+	$('#simple-menu').sidr({
+		side: 'left'
+	});
 });

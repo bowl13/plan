@@ -3,6 +3,11 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+@media(max-width:768px){
+	body{
+		padding:0 !important;
+	}
+}
 #wrap{
 	/*min-height:100%;*/
 	height: auto !important;
@@ -65,13 +70,32 @@ body{
 .head_cont nav ul{
 	padding-top: 20px;
 }
+@media(max-width:900px){
+	.head_cont nav{
+		font-size:12px;
+		width: 440px;
+	}
+}
 .head_cont .tools{
 	padding-top: 30px;
 	margin-right: 10px;
 }
 .head_cont .logo{
 	margin: 10px 5px;
-	position: absolute;
+}
+/*MENU RESPONSIVE*/
+.head_cont_resp{
+	background-color: #fff;
+	height:auto;
+	text-transform: uppercase;
+	color: #3598dc;
+	z-index: 999999;
+}
+.head_cont_resp a{
+	text-decoration:none;
+}
+.head_cont_resp a:hover{
+	color:#3598dc;
 }
 section{
 	height:auto;
@@ -124,6 +148,16 @@ section.cont_slide p{
 	margin-top: 21%;
 	margin:21% 0 0 10%;
 	line-height: 1.3em;
+}
+@media(max-width:900px){
+	section.cont_slide p{
+		font-size:18px;
+		width:340px;
+	}
+}
+/*HACK SAFARI*/
+::made-up-pseudo-element, .cont_slide p{
+	margin-top: 35% !important;
 }
 section.cont_slide p span{
 	color:#f37531;

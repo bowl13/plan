@@ -33,15 +33,11 @@
         <meta property="og:image" content="http://garethhooper.com/images/stories/articles/social_media/integration/facebook_how_to_embed_your_own_videos.jpg"/>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                /*padding-top: 30px;*/
-                padding-bottom: 20px;
-            }
-        </style>
+        
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/mediaelementplayer.css">
+        <link rel="stylesheet" href="css/jquery.sidr.light.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     
@@ -55,8 +51,8 @@
         <style type="text/css">
         <!--
         .mejs-overlay{
-        background: url(img/<?php echo $selectedBg; ?>) no-repeat;
-        background-size: cover;
+            background: url(img/<?php echo $selectedBg; ?>) no-repeat;
+            background-size: cover;
         }
         -->
         </style>
@@ -79,7 +75,7 @@
 
             <div class="container-fluid">
 
-                <header class="row-fluid head_cont">
+                <header class="row-fluid head_cont hidden-phone">
                     
                     <div class="span2">
                         
@@ -102,7 +98,7 @@
                     </div>
 
                     <div class="span2">
-                        
+
                         <div class="tools">
 
                             <div class="lang pull-right">spa</div>
@@ -116,16 +112,58 @@
 
                 </header>
 
+                <header class="hidden-desktop hidden-tablet row-fluid head_cont_resp">
+                    
+                    <div class="span2 text-center">
+                        
+                        <img src="img/logo.gif" alt="">
+
+                    </div>
+                        
+                    <div class="span2 well-small">
+                          
+                        <div class="pull-left">
+                            
+                            <a id="simple-menu" class="pull-right" href="#sidr">menú <img style="padding-bottom:3px;" src="img/icon_menu.gif" alt=""></a>
+     
+                            <div id="sidr">
+                              
+                              <ul>
+                                    <li class="active"><a href="#">quienes somos</a></li>
+                                    <li><a href="#">de donde venimos</a></li>
+                                    <li><a href="#">donde encontrarnos</a></li>
+                              </ul>
+
+                            </div>
+
+                        </div>  
+                        
+                        <div class="pull-right">
+                            
+                            <div class="lang pull-right">spa</div>
+
+                            <div class="tw pull-right" style="margin-right:5px;border-right:2px solid #3598dc;padding-right:5px;"><img src="img/icon_tw.gif" alt=""></div>
+                            <div class="fb pull-right" style="margin-right:5px;"><img src="img/icon_fb.gif" alt=""></div>
+
+                        </div>
+
+                    </div>
+                    
+                </header>
+
                 <section class="row-fluid">
 
-                    <!--div class="span12 cont-over text-center">
-                        
-                        <h2>Bienvenidos a</h2>
-                        <h1>agrosuper foods</h1>
-                        
-                        <p>Un mundo de sabores para nutrirte con los mejores momentos.</p>
+                    <div class="hidden-desktop hidden-tablet">
 
-                    </div-->
+                        <div class="clearfix"></div>
+
+                        <div class="video_ext" style="height:auto;min-height:480px;max-width:768px;width:100%;">
+                            
+                            hola
+
+                        </div>
+
+                    </div>
 
                     <video id="youtube1" class="hidden-phone" width="100%" height="100%">
                         
@@ -218,9 +256,8 @@
 
         </div>
 
-        <div class="clearfix"></div>
 
-        <footer class="footer-fix container-fluid">
+        <footer class="footer-fix container-fluid hidden-phone">
             
             <div class="row-fluid">
                 
@@ -253,6 +290,7 @@
         <script src="js/main.js"></script>
         <script src="js/vendor/jquery.keyboardScroll.js"></script>
         <script src="http://www.mediaelementjs.com/js/mejs-2.12.0/mediaelement-and-player.js"></script>
+        <script src="js/vendor/jquery.sidr.js"></script>
 
 
 		<!--google analytics-->

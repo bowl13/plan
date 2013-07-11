@@ -5,6 +5,12 @@
 	text-align: left;
 	vertical-align: top;
 	text-indent: 0;
+	width:100% !important;
+}
+@media(max-width:900px){
+	.mejs-container{
+		margin-top:40px;
+	}
 }
 
 .me-plugin {
@@ -101,7 +107,10 @@
 	background-size: cover;
 
 }
-
+/*HACK SAFARI*/
+::made-up-pseudo-element, .mejs-overlay-button{
+	margin-top:39% !important;
+}
 .no-svg .mejs-overlay-button { 
 	background-image: url(bigplay.png);
 }
