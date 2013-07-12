@@ -1,13 +1,7 @@
-/*loading*/
-$(window).load(function(){
-	$('.load').delay(1000).fadeOut('slow',function(){
-		$('#wrap, footer').fadeIn(200);
-	});
-});
 $(document).ready(function() {
 
 //ARROW KEY NAV
-	$(".container-fluid").keyboardScroll({
+	$(".row-fluid").keyboardScroll({
 		scrollSpeed:1500
 	});
 
@@ -29,7 +23,7 @@ $(document).ready(function() {
 	});
 
 //MOUSEOVER KEY NAV
-	$('#txt_key').delay(2000).fadeOut();
+	$('#txt_key').delay(5000).fadeOut();
 
 	$('#key').mouseover(function(){
 		$('#txt_key').fadeIn();
@@ -43,5 +37,11 @@ $(document).ready(function() {
 //RESPONSIVE MENU
 	$('#simple-menu').sidr({
 		side: 'left'
+	});
+});
+/*loading*/
+$(window).load(function(){
+	$('.load').delay(1000).fadeOut('slow',function(){
+		$('#wrap, footer').fadeIn(200);
 	});
 });
