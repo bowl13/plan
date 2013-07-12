@@ -1,3 +1,9 @@
+/*loading*/
+$(window).load(function(){
+	$('.load').delay(1000).fadeOut('slow',function(){
+		$('#wrap, footer').fadeIn(200);
+	});
+});
 $(document).ready(function() {
 
 //ARROW KEY NAV
@@ -22,11 +28,16 @@ $(document).ready(function() {
 		features: false
 	});
 
-//MOUSEOVER
+//MOUSEOVER KEY NAV
+	$('#txt_key').delay(2000).fadeOut();
+
 	$('#key').mouseover(function(){
 		$('#txt_key').fadeIn();
 	}).mouseleave(function(){
 		$('#txt_key').fadeOut();
+	});
+	$(window).scroll(function(){
+		$('#txt_key').css('display','inline').delay(1000).fadeOut();
 	});
 
 //RESPONSIVE MENU

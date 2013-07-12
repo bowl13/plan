@@ -70,6 +70,8 @@
           js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <div class="load">holi</div>
 
         <div id="wrap">
 
@@ -142,8 +144,8 @@
                             
                             <div class="lang pull-right">spa</div>
 
-                            <div class="tw pull-right" style="margin-right:5px;border-right:2px solid #3598dc;padding-right:5px;"><img src="img/icon_tw.gif" alt=""></div>
-                            <div class="fb pull-right" style="margin-right:5px;"><img src="img/icon_fb.gif" alt=""></div>
+                            <div class="tw pull-right" style="margin-right:15px;border-right:2px solid #3598dc;padding-right:5px;"><img src="img/icon_tw.gif" alt=""></div>
+                            <div class="fb pull-right" style="margin-right:15px;"><img src="img/icon_fb.gif" alt=""></div>
 
                         </div>
 
@@ -195,7 +197,7 @@
 
                             <div class="hidden-desktop hidden-tablet view-cinema">
 
-                            <img src="img/cinema_japan_low.gif" alt="">
+                                <img src="img/cinema_japan_low.gif" alt="">
 
                             </div>
 
@@ -215,7 +217,7 @@
 
                             <div class="hidden-desktop hidden-tablet view-cinema">
 
-                            <img src="img/cinema_japan_low.gif" alt="">
+                                <img src="img/cinema_japan_low.gif" alt="">
 
                             </div>
 
@@ -234,7 +236,7 @@
 
                             <div class="hidden-desktop hidden-tablet view-cinema">
 
-                            <img src="img/cinema_japan_low.gif" alt="">
+                                <img src="img/cinema_japan_low.gif" alt="">
 
                             </div>
 
@@ -269,7 +271,7 @@
 
                 <div class="nav_key pull-right" style="margin-right:10px;">
                     
-                    <p id="txt_key" class="pull-left" style="display:none;">navega con tu teclado</p>
+                    <p id="txt_key" class="pull-left">navega con tu teclado</p>
 
                     <div id="key" class="pull-left" style="margin-left:10px;cursor:pointer;">
                         
