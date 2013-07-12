@@ -1,9 +1,12 @@
 $(document).ready(function() {
 
 //ARROW KEY NAV
-	$(".row-fluid").keyboardScroll({
-		scrollSpeed:1500
-	});
+	 $("section.row-fluid").keyboardScroll(
+      {
+        downKeyCode     : 40,   // 40 == down arrow
+        upKeyCode       : 38,   // 38 == up arrow
+        scrollDuration  : 500
+      });
 
 //CAROUSEL ARROW NAV
 	$(document).bind('keyup', function(e) {
