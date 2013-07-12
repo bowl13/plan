@@ -2,6 +2,7 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 75px;
 }
 @media(max-width:768px){
 	body{
@@ -58,6 +59,7 @@ body{
 	color: #3598dc;
 	position: fixed;
 	z-index: 999999;
+	margin-top:-75px;
 }
 .head_cont nav{
 	width: 510px;

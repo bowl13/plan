@@ -45,6 +45,8 @@ $(document).ready(function() {
 /*loading*/
 $(window).load(function(){
 	$('.load').delay(1000).fadeOut('slow',function(){
-		$('#wrap, footer').fadeIn(200);
+		$('#wrap, footer').fadeIn(200, function(){
+			$('#youtube1').fadeIn();
+		});
 	});
 });

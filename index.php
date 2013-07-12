@@ -7,7 +7,7 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Agrosuper B2C</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         
@@ -153,7 +153,7 @@
                     
                 </header>
 
-                <section class="row-fluid">
+                <section class="row-fluid" style="background-color:#000;">
 
                     <div class="hidden-desktop hidden-tablet">
 
@@ -167,7 +167,7 @@
 
                     </div>
 
-                    <video id="youtube1" class="hidden-phone" width="100%" height="100%">
+                    <video id="youtube1" class="hidden-phone" style="display:none;" width="100%" height="100%">
                         
                         <source src="http://youtu.be/XuyMl9I8agM" type="video/youtube">
                        
