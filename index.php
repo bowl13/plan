@@ -91,9 +91,9 @@
                         
                         <nav>
                             <ul class="unstyled nav nav-pills">
-                                <li><a href="#">quienes somos</a></li>
-                                <li><a href="#">de donde venimos</a></li>
-                                <li><a href="#">donde encontrarnos</a></li>
+                                <li><a href="#">quiénes somos</a></li>
+                                <li><a href="#">de dónde venimos</a></li>
+                                <li><a href="#">dónde encontrarnos</a></li>
                             </ul>
                         </nav>
 
