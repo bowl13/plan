@@ -91,9 +91,9 @@
                         
                         <nav>
                             <ul class="unstyled nav nav-pills">
-                                <li><a href="#">quienes somos</a></li>
-                                <li><a href="#">de donde venimos</a></li>
-                                <li><a href="#">donde encontrarnos</a></li>
+                                <li><a href="#top">quienes somos</a></li>
+                                <li><a href="#middle">de donde venimos</a></li>
+                                <li><a href="#bottom">donde encontrarnos</a></li>
                             </ul>
                         </nav>
 
@@ -153,7 +153,7 @@
                     
                 </header>
 
-                <section class="row-fluid">
+                <section id="top" class="row-fluid">
 
                     <div class="hidden-desktop hidden-tablet">
 
@@ -177,7 +177,7 @@
 
                 </section>
 
-                <section class="row-fluid cont_slide">
+                <section id="middle" class="row-fluid cont_slide">
                     
                     <div id="myCarousel" class="carousel slide">
                       <!-- Carousel items -->
@@ -290,7 +290,8 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
-        <script src="js/vendor/jquery.keyboardScroll.js"></script>
+        <script src="js/vendor/jquery.nav.js"></script>
+        <script src="js/vendor/jquery.scrollTo.js"></script>
         <script src="http://www.mediaelementjs.com/js/mejs-2.12.0/mediaelement-and-player.js"></script>
         <script src="js/vendor/jquery.sidr.js"></script>
 

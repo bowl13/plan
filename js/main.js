@@ -1,9 +1,8 @@
 $(document).ready(function() {
 
 //ARROW KEY NAV
-	$(".row-fluid").keyboardScroll({
-		scrollSpeed:1500
-	});
+	var $nav = $('#nav');
+	$nav.onePageNav();
 
 //CAROUSEL ARROW NAV
 	$(document).bind('keyup', function(e) {
