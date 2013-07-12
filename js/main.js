@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 //ARROW KEY NAV
-	 $("section.row-fluid").keyboardScroll(
+	 $("section.sectionnav").keyboardScroll(
       {
         downKeyCode     : 40,   // 40 == down arrow
         upKeyCode       : 38,   // 38 == up arrow

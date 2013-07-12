@@ -153,7 +153,7 @@
                     
                 </header>
 
-                <section class="row-fluid" style="background-color:#000;">
+                <section class="sectionnav row-fluid" style="background-color:#000;">
 
                     <div class="hidden-desktop hidden-tablet">
 
@@ -177,7 +177,7 @@
 
                 </section>
 
-                <section class="row-fluid cont_slide">
+                <section class="sectionnav row-fluid cont_slide">
                     
                     <div id="myCarousel" class="carousel slide">
                       <!-- Carousel items -->
